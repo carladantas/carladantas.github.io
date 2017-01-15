@@ -35,6 +35,9 @@ function askQuestions () {
 
 $(function () {
 
+	//When the user clicks the image, run askQuestions
+	$('img').on('click', askQuestions);
+
 	// When the user clicks an h3 element
 	$('h3').on('click', function () {
 
